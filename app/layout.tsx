@@ -45,6 +45,9 @@ export default function RootLayout({
           href="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=2574&auto=format&fit=crop"
           as="image"
         />
+
+        {/* Add favicon */}
+        <link rel="icon" href="/wanderlust.ico" type="image/x-icon" />
       </head>
       <body className={inter.className}>
         <Navigation />
@@ -55,7 +58,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-
-import './globals.css'
