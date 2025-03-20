@@ -45,13 +45,6 @@ export default function RootLayout({
           href="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=2574&auto=format&fit=crop"
           as="image"
         />
-
-        {/* Add favicon */}
-        <link rel="icon" href="/wanderlust.ico" type="image/x-icon" />
-        
-        {/* Add favicon for different devices */}
-        <link rel="apple-touch-icon" href="/wanderlust.ico" />
-        <meta name="theme-color" content="#0f172a" />
       </head>
       <body className={inter.className}>
         <Navigation />
@@ -62,3 +55,7 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+
+import './globals.css'   
